@@ -1,11 +1,4 @@
-import datetime
-import sdfsadfasdf
+MENSAGEM = "Alo Mundo!"
 
 
-data  = datetime.datetime.now()
-
-
-print(data)
-
-
-
+print(MENSAGEM)
