@@ -16,6 +16,7 @@ class Teste:
 
     @property
     def calcular_media(self):
+        self.pergunta
         media = sum(self.notas) / len(self.notas)
         return print(media)
 
