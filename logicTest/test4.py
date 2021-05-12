@@ -1,23 +1,26 @@
 """
 Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 """
+
+
+class Teste:
+    def __init__(self, notas):
+        self.notas = notas
+
+    @property
+    def pergunta(self):
+        for x in range(4):
+            print("Sua nota no bimestre pls ")
+            self.notas.append(int(input()))
+        return notas
+
+    @property
+    def calcular_media(self):
+        media = sum(self.notas) / len(self.notas)
+        return print(media)
+
+
 notas = []
-max_notas = 5
+new_teste = Teste([])
 
-pergunta = "Primeira nota "
-
-for x in range(4):
-    print("Sua nota no bimestre pls ")
-    try:
-        notas.append(int(input()))
-    except:
-        notas.append(0)
-
-
-
-def calcular_media(*args):
-    media = sum(notas) / len(notas)
-    return print(media)
-
-
-calcular_media()
+new_teste.calcular_media
