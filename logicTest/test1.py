@@ -5,4 +5,6 @@ print(MENSAGEM)
 
 
 # um comment
+# um comment
+# um comment
 
